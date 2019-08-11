@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+.container{
+    background-color: white;
+    margin: 10px;
+}
+
+
+.intro-panel {
+    min-height: 40%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,195,15,1) 100%);
+}
+
+.buttons {
+    float: right;
+    margin: 1rem auto;
+}
+
+#sign-in-button, #sign-up-button {
+    width: 6rem;
+    padding: 0.5rem;
+    margin: 0.5rem 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#sign-in-button {
+    background-color: #288383;
+}
+
+#sign-up-button {
+    background-color: #083343;
+    margin-right: 8rem;
+}
+
+#register-as-mentor {
+    padding: 1rem;
+    background-color: #083343;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2rem;
+    margin-right: 7rem;
+}
+
+.vision {
+    display: inline-block;
+    width: 80%;
+    padding: 0.1%;
+    margin: 1rem 8rem;
+}
+
+.vision img {
+    width: 300px;
+}
+
+.summary {
+    float: right;
+    width: 60%;
+    
+}
+
+.summary h1 {
+    text-align: right;
+    margin-top: 3rem;
+    font-family: 'Roboto Condensed';
+}
+
+.summary button {
+    float: right;
+    margin: 1rem;
+    background-color: #083343;
+    padding: 1.2rem 2rem;
+    color: whitesmoke;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1rem;
+    border-radius: 10px;
+}
+
+.subtitles h2 {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem 8rem;
+    font-size: 4rem;
+}
+
+.subtitles h3 {
+    color: #333333;
+    font-family: 'Roboto Mono', monospace;
+    margin: 1rem 8rem;
+    font-size: 1.7rem;
+}
