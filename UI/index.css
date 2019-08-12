@@ -58,7 +58,9 @@ body {
 }
 
 .vision img {
-    width: 300px;
+    width: 400px;
+    box-shadow: 10px 0px 20px #000000;
+    border-radius: 5px;
 }
 
 .summary {
@@ -100,3 +102,119 @@ body {
     margin: 1rem 8rem;
     font-size: 1.7rem;
 }
+
+.guide-panels {
+    width: 87%;
+    margin: 2rem auto;
+}
+
+.panel {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 3rem;
+    width: 60%;
+    box-shadow: 2px 0px 5px #333333;
+    height: 210px;
+}
+
+.title {
+    border-bottom: 2px solid lightgray;
+    padding: 0.8rem;
+    margin-top: -1rem;
+}
+
+.description {
+    display: inline-block;
+    min-height: 55px;
+}
+
+.description-div {
+    width: 60%;
+    margin: 0.1rem 0.2rem;
+    padding: 0.2rem;
+}
+
+#describe {
+    width: 100%;
+}
+
+.description-div button {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #616161;
+    padding: 1rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+}
+
+.description img {
+    float: right;
+    margin-top: -6rem;
+    width: 140px;
+}
+
+.description p {
+    width: 60%;
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+.numbering {
+    border: 6px solid #ff9800;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #ff9800;
+    font-weight: 600;
+}
+
+.title-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#descriptionimg {
+    margin-top: -10rem;
+}
+
+.one, .three {
+    margin-left: 30%;
+}
+
+.mission {
+    height: 200px;
+    background-color: #083343;
+    padding: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.mission button {
+    background-color: #d7c30f;
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    padding: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+footer {
+    height: 50px;
+    background-color: #288383;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1.3rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+}
+
