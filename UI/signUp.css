@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,195,15,1) 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.container {
+    background-color: #ffffff;
+    opacity: 0.85;
+    width: 50%;
+    margin: 5% auto;
+    padding: 4rem;
+    min-height: 22rem;
+    box-shadow: 5px 2px 5px grey;
+}
+
+h1 {
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+label {
+    margin: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+input, select {
+    margin: 0.5rem 3rem;
+    padding: 0.5rem;
+}
+
+button {
+    margin: 1rem 5rem;
+    padding: 0.8rem 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #083343;
+    border: none;
+    border-radius: 5px;
+}
