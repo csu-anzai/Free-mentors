@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,195,15,1) 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.container {
+    background-color: #ffffff;
+    opacity: 0.85;
+    width: 50%;
+    margin: 2% auto;
+    padding: 2rem;
+    min-height: 22rem;
+    box-shadow: 0px 0px 7px grey;
+}
+
+.profile {
+    display: block;
+}
+
+.profile label {
+    display: block;
+    float: right;
+    margin: 3.5rem -5.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #444444;
+}
+
+.profile h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 4.5rem;
+    color: #444444;
+}
+
+.material-icons {
+    float: right;
+    margin: 0.5rem 1.5rem;
+    font-size: 4rem;
+    color: #444444;
+}
+
+form {
+    text-align: center;
+}
+
+#searchBox {
+    padding: 0.5rem 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    border: 2px solid lightgrey; 
+}
+
+#searchButton {
+    padding: 0.5rem 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    background-color: #083343;
+    color: whitesmoke;
+    border: none;
+}
+
+.user {
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0.9rem;
+    padding-bottom: 3rem;
+    padding-right: 0.1rem;
+    width: 99%;
+    box-shadow: 0px 0px 7px grey;
+    margin-bottom: 1.5rem;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    width: 70%;
+}
+
+.description button {
+    padding: 0.5rem 0.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: white;
+    background-color: #083343;
+    border: none;
+    border-radius: 5px;
+}
+
+.viewuser {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: #083343;
+    
+}
