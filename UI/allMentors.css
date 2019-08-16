@@ -43,6 +43,26 @@ body {
     color: #444444;
 }
 
+form {
+    text-align: center;
+}
+
+#searchBox {
+    padding: 0.5rem 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    border: 2px solid lightgrey; 
+}
+
+#searchButton {
+    padding: 0.5rem 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    background-color: #083343;
+    color: whitesmoke;
+    border: none;
+}
+
 .mentor {
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
@@ -76,4 +96,11 @@ body {
 
 .description h4 {
     margin: 0.1rem;
+}
+
+.viewmentor {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: #083343;
 }
