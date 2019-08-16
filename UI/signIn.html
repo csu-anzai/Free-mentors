@@ -11,15 +11,18 @@
 <body>
     <div class="container">
         <h1>Welcome back to Free-Mentors!</h1>
-        <label >Username or Email:</label>
-        <br>
-        <input type="text" name="username" placeholder="Enter your username or Email" size="30">
-        <br>
-        <label>Password:</label>
-        <br>
-        <input type="password" placeholder="Enter your password">
-        <br>
-        <button>Sign In</button>
+        <form>
+            <label >Username or Email:</label>
+            <br>
+            <input type="text" name="username" placeholder="Enter your username or Email" size="30" required>
+            <br>
+            <label>Password:</label>
+            <br>
+            <input type="password" placeholder="Enter your password" required>
+            <br>
+            <input type="submit" value="Sign In" id="signIn">
+        </form>
     </div>
+    <script src="./signIn.js"></script>
 </body>
 </html>
