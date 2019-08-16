@@ -44,3 +44,21 @@ input, select {
     border: none;
     border-radius: 5px;
 }
+
+@media only screen and (max-width : 768px) {
+    .container{
+        width: 65%;
+    }
+
+    label, input, select {
+        margin: 1% 1%;
+    }
+
+    #register {
+        margin: 5% 1%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}

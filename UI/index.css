@@ -218,3 +218,98 @@ footer {
     border-radius: 5px;
 }
 
+@media only screen and (max-width : 1224px) {
+    body {
+        margin: 0px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .mission, .panel {
+        height: 20%;
+    }
+
+    .description img {
+        width: 35%;
+    }
+
+    .description-div button {
+        width: 60%;
+    }
+
+    .vision img {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    body{
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0.5% auto;
+    }
+
+    .panel{
+        width: 90%;
+        margin: 0.2%;
+    }
+
+    .title-text {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .numbering {
+        border: none;
+        padding: 0.3rem;
+    }
+
+    .vision{
+        display: flex;
+        margin: 1%;
+        width: 100%;
+    }
+
+    .summary h1 {
+        text-align: left;
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin: 1%;
+        font-family: 'Work Sans',sans-serif;
+        font-weight: 400;
+    }
+
+    .vision img {
+        display: none;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    #register-as-mentor, #sign-in-button, #sign-up-button {
+        display: flex;
+        flex-direction: row;
+        margin: 1%;
+        border: none;
+        padding: 0.05% 0.1%;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .intro-panel {
+        margin-left: 1%;
+        padding: 0%;
+        width: 90%;
+    }
+
+    .subtitles h2, .subtitles h3 {
+        font-size: 1rem;
+        margin: 1%
+    }
+}
