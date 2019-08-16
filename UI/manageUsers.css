@@ -98,3 +98,30 @@ form {
     color: #083343;
     
 }
+
+@media only screen and (max-width : 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    .user {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 95%;
+    }
+
+    .viewuser {
+        margin: 2%;
+        padding: 2%;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 2%;
+    }
+}

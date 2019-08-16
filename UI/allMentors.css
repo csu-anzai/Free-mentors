@@ -1,6 +1,5 @@
 body {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,195,15,1) 100%);
-    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
@@ -104,3 +103,40 @@ form {
     text-align: center;
     color: #083343;
 }
+
+@media only screen and (max-width : 1125px) {
+    .mentor img {
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .mentor {
+        width: 98%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        background-attachment: cover;
+    }
+
+    .viewmentor {
+        text-align: left;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .description button {
+        margin: 5% 1%;
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 0.2rem;
+    }
+}
+
