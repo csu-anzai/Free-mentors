@@ -31,4 +31,14 @@ userPostRouter.post('/auth/signup/', (req, res) => {
     }
 });
 
+userPostRouter.post('/auth/signin', (req, res) => {
+    const schema = {
+        "email": Joi.string().email().lowercase().required(),
+        "password": Joi.string().alphanum().required()
+    }
+
+    Joi.validate(req.body, schema);
+    res.status(201).send(req.body);
+});
+
 module.exports = userPostRouter;
