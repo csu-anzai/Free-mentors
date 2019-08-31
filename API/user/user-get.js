@@ -4,7 +4,7 @@ const app = express();
 const userGetRouter = express.Router();
 
 let mentors = [
-    {"mentorId": 'integer',
+    {"mentorId": 1,
     "firstName": 'string',
 	"email": 'string@gmail.com',
 	"password": "String70275043",
@@ -13,7 +13,7 @@ let mentors = [
 	"occupation": " lsdh sdh ldsjh akhd lksdh",
 	"expertise": "ldksfh ajhd haldh hl"},
 
-	{"mentorId": 'integer',
+	{"mentorId": 2,
     "firstName": 'string',
 	"email": 'string@gmail.com',
 	"password": "String70275043",
@@ -25,6 +25,18 @@ let mentors = [
 
 userGetRouter.get('/mentors', (req, res) => {
 	res.status(200).send(mentors);
+});
+
+userGetRouter.get('/mentors/:mentorId', (req, res) => {
+	const param = req.params.mentorId;
+	const mentor = mentors.find(mentorObject => {
+		if(mentorObject.mentorId == param){
+			return mentorObject;
+		}
+	});
+
+	res.status(200).send(mentor);
+	
 });
 
 module.exports = userGetRouter;
