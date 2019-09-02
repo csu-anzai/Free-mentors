@@ -151,7 +151,8 @@ body {
 .description img {
     float: right;
     margin-top: -6rem;
-    width: 140px;
+    width: 160px;
+    border-radius: 3%;
 }
 
 .description p {
@@ -179,6 +180,8 @@ body {
 
 #descriptionimg {
     margin-top: -10rem;
+    width: 180px;
+    border-radius: 2%;
 }
 
 .one, .three {
