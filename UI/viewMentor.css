@@ -60,6 +60,11 @@ h1 {
     font-family: 'Work Sans', sans-serif;
 }
 
+textarea {
+    width: 98%;
+    height: 40%;
+}
+
 a {
     margin-top: 2rem;
     text-align: center;
@@ -83,6 +88,27 @@ a {
     margin: 0.3rem;
     width: 99%;
     box-shadow: 0px 0px 7px grey;
+}
+
+button {
+    color: white;
+    background-color: #083343;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem;
+}
+
+span {
+    margin: 0.5rem;
+}
+
+img {
+    width: 35%;
+    height: 70%;
+    border-radius: 4%;
+    margin: 0.2rem;
 }
 
 @media only screen and (max-width : 1125px) {
