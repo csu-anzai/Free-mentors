@@ -27,27 +27,22 @@ label {
     margin: 3rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    margin-left: 22%;
 }
 
-input {
+input, select {
     margin: 0.5rem 3rem;
     padding: 0.5rem;
-    width: 45%;
-    margin-bottom: 1.5rem;
-    margin-left: 22%;
 }
 
 #register {
-    margin: 1.5rem ;
-    padding: 0.8rem 1.5rem;
+    margin: 1rem 5rem;
+    padding: 0.8rem 1.2rem;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
     color: white;
     background-color: #083343;
     border: none;
     border-radius: 5px;
-    margin-left: 22%;
 }
 
 @media only screen and (max-width : 768px) {

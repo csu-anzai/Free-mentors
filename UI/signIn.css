@@ -27,19 +27,15 @@ label {
     margin: 3rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    margin-left: 22%;
 }
 
 input {
     margin: 0.5rem 3rem;
     padding: 0.5rem;
-    margin-left: 22%;
-    margin-bottom: 1.5rem;
-    width: 40%;
 }
 
 #signIn {
-    margin: 1% 22%;
+    margin: 1rem 3rem;
     padding: 0.8rem 1.2rem;
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
@@ -47,7 +43,6 @@ input {
     background-color: #083343;
     border: none;
     border-radius: 5px;
-    width: 20%;
 }
 
 @media only screen and (max-width : 768px) {
