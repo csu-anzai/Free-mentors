@@ -81,12 +81,14 @@ form {
 .mentor img {
     margin-left: 0.5rem; 
     margin-top: 1.3rem;
+    height: 32%;
+    width: 28%;
 }
 
 .description button {
-    padding: 1rem 1rem;
+    padding: 0.8rem 0.8rem;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     background-color: #083343;
     border: none;
